@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# jetbrain
+.idea
+
+# node.js
+#
+node_modules/
+npm-debug.*
+
+# Bundle artifact
+*.jsbundle
+
+#JEST
+.jest/cache/*
+coverage/*
+.history
+tests/**/*.png
+
+#STORYBOOK
+build-storybook.log
+
+#VIM
+*.swp
+
+
+#OTHER
+.DS_Store
+dist
+dist-ssr
+*.local
+yarn-error.log
+coverage
+settings.json
+
+#ENV Files
+.env

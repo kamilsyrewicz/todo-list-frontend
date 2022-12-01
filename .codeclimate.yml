@@ -1,0 +1,50 @@
+version: "2"
+exclude_patterns:
+  - "**/*.stories.tsx"
+  - "**/*.test.tsx"
+  - "src/translations/index.ts"
+  - "vite-env.d.ts"
+  - "main.tsx"
+  - "vite.config.ts"
+  - "**/*.storybook/"
+  - "mock"
+  - "**/*.generated.tsx"
+  - "**/*.test.tsx"
+  - "**/*.test.ts"
+  - "**/*.spec.tsx"
+  - "apollo.ts"
+  - "typePolicies.ts"
+  - "types.ts"
+  - "src/common/types.ts"
+  - "src/utils/getMetaEnv.ts"
+  - "src/index.d.ts"
+  - "src/apollo/generated"
+checks:
+  argument-count:
+    config:
+      threshold: 4
+  complex-logic:
+    config:
+      threshold: 50
+  file-lines:
+    config:
+      threshold: 500
+  method-complexity:
+    config:
+      threshold: 50
+  method-count:
+    config:
+      threshold: 20
+  method-lines:
+    config:
+      threshold: 500
+  nested-control-flow:
+    config:
+      threshold: 4
+  return-statements:
+    config:
+      threshold: 4
+  similar-code:
+    enabled: false
+  identical-code:
+    enabled: false
